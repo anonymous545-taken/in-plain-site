@@ -57,7 +57,7 @@
 
     function typeTitle() {
       if (index < text.length) {
-        document.title += text.charAt(index);
+        document.title = text.charAt(index);
         index++;
         setTimeout(typeTitle, 150);
       }
